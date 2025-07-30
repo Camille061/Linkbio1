@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
 
 #Btn {
     border: none;
@@ -23,7 +24,7 @@
 
 #myText {
     background-color: #ffc4f6;
-    color: #ff0c0c;
+    text-align: center;
 }
 
 
@@ -34,8 +35,9 @@
 .head-username {
     text-align: center;
     font-family: "Mitr", sans-serif;
-    font-size: larger;
     font-weight: 400;
+    color: #ff0000;
+
 }
 
 .text-username {
@@ -152,3 +154,10 @@
     width: 300px;
     height: 70px;
 }
+
+/* git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Camille061/linkbio2.git
+git push -u origin main */
