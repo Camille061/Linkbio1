@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
-
-#Btn {
+    #Btn {
     border: none;
     color: rgb(255, 255, 255);
     background: linear-gradient(to right, #f2ff00, #fb0606);
@@ -73,8 +70,8 @@
 }
 
 .img2 {
-    width: 40px;
-    height: 45px;
+    width: 70px;
+    height: 60px;
     margin: 0 1rem;
 }
 
