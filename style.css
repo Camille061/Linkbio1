@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&family=Mitr:wght@200;300;400;500;600;700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#Btn {
+    border: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #f2ff00, #fb0606);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    font-weight: bold;
+
+}
+
+/* background: linear-gradient(to right, #f2ff00, #ececec); */
+.Imag {
+    width: 200px;
+    height: 200px;
+    border: none;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+#myText {
+    background-color: #ffc4f6;
+}
+
+
+.top-bar {
+    text-align: center;
+}
+
+.head-username {
+    text-align: center;
+    font-family: "Mitr", sans-serif;
+    font-size: larger;
+    font-weight: 400;
+}
+
+.text-username {
+    font-weight: bold;
+}
+
+
+.discord-box {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:   #ffc4f6;
+}
+
+.discord {
+    text-align: center;
+    align-items: center;
+    display: flex;  
+    border: none;
+    border-radius: 20px;
+   background: linear-gradient(to right, #ff0c0c, #ff00d4);                     
+    width: 300px;
+    height: 70px;
+}
+
+.text-discord {
+    margin: 0rem;
+    padding: 15px;
+    font-weight: bold;
+     font-family: "Mitr", sans-serif;
+
+}
+
+.img2 {
+    width: 40px;
+    height: 45px;
+    margin: 0 1rem;
+}
+
+.telegram-box {
+        height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ffc4f6;
+}
+
+.telegram {
+      text-align: center;
+    align-items: center;
+    display: flex;  
+    border: none;
+    border-radius: 20px;
+   background: linear-gradient(to right, #ff0c0c, #ff00d4);                     
+    width: 300px;
+    height: 70px;
+}
+
+
+.instargram-box {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ffc4f6;
+}
+
+.instargram {
+        text-align: center;
+    align-items: center;
+    display: flex;  
+    border: none;
+    border-radius: 20px;
+   background: linear-gradient(to right, #ff0c0c, #ff00d4);                     
+    width: 300px;
+    height: 70px;
+}
+
+.slideshort-box {
+      height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ffc4f6;
+}
+
+.slideshort {
+        text-align: center;
+    align-items: center;
+    display: flex;  
+    border: none;
+    border-radius: 20px;
+   background: linear-gradient(to right, #ff0c0c, #ff00d4);                     
+    width: 300px;
+    height: 70px;
+}
+
+.Rlcraft-box {
+       height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #ffc4f6;
+}
+
+.Rlcraft {
+            text-align: center;
+    align-items: center;
+    display: flex;  
+    border: none;
+    border-radius: 20px;
+   background: linear-gradient(to right, #ff0c0c, #ff00d4);                     
+    width: 300px;
+    height: 70px;
+}
