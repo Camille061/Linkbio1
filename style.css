@@ -152,6 +152,11 @@
         height: 70px;
     }
 
+    .Btn-rl {
+        border: none;
+        border-radius: 20px;
+    }
+
     /* git init
 git add .
 git commit -m "first commit"
