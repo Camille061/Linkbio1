@@ -20,7 +20,7 @@
     }
 
     #myText {
-        background-color: #ffc4f6;
+        background-color: #d0c4ff;
         text-align: center;
     }
 
@@ -29,13 +29,28 @@
         text-align: center;
     }
 
-    .head-username {
-        text-align: center;
-        font-family: "Mitr", sans-serif;
-        font-weight: 400;
-        color: #ff0000;
+  #text-username {
+  font-size: 48px;
+  font-weight: 700;
+  color: #ff0000;
+  position: relative;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  text-shadow: 
+     0 0 8px rgba(255, 182, 193, .9),
+     0 0 16px rgba(255, 105, 180, .8),
+     0 0 24px rgba(255, 20, 147, .7);
+  transition: all .3s ease;
+}
 
-    }
+#text-username:hover {
+  text-shadow: 
+     0 0 12px rgba(255, 182, 193, 1),
+     0 0 24px rgba(255, 105, 180, 1),
+     0 0 36px rgba(255, 20, 147, 1);
+}
+
 
     .text-username {
         font-weight: bold;
@@ -47,7 +62,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffc4f6;
+        background-color:  #d0c4ff;
     }
 
     .discord {
@@ -56,7 +71,7 @@
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #ff0c0c, #ff00d4);
+        background: linear-gradient(to right, #000000, #7c0168);
         width: 300px;
         height: 70px;
     }
@@ -80,16 +95,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffc4f6;
+        background-color:  #d0c4ff;
     }
 
     .telegram {
-        text-align: center;
+          text-align: center;
         align-items: center;
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #ff0c0c, #ff00d4);
+        background: linear-gradient(to right, #000000, #7c0168);
         width: 300px;
         height: 70px;
     }
@@ -100,35 +115,71 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffc4f6;
+        background-color:  #d0c4ff;
     }
 
     .instargram {
-        text-align: center;
+          text-align: center;
         align-items: center;
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #ff0c0c, #ff00d4);
+        background: linear-gradient(to right, #000000, #7c0168);
         width: 300px;
         height: 70px;
     }
+
+    .language-switcher {
+  position: fixed;
+  top: 12px;
+  right: 12px;
+}
+
+#Addons {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #6a5af9, #f66d9b);
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  position: relative;
+  overflow: hidden;
+  transition: transform .2s;
+}
+
+#Addons:active {
+  transform: scale(.95);
+}
+
+[data-i18n] {
+  transition: opacity .3s ease;
+}
+
+/* สลับให้ดูนุ่ม */
+.fade-out {
+  opacity: 0;
+}
+.fade-in {
+  opacity: 1;
+}
+
 
     .slideshort-box {
         height: 80px;
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: #ffc4f6;
+        background-color:  #d0c4ff;
     }
 
     .slideshort {
-        text-align: center;
+          text-align: center;
         align-items: center;
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #ff0c0c, #ff00d4);
+        background: linear-gradient(to right, #000000, #7c0168);
         width: 300px;
         height: 70px;
     }
@@ -156,6 +207,130 @@
         border: none;
         border-radius: 20px;
     }
+#Rs {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff0c0c, #ff5e00);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform .2s ease;
+}
+
+/* เส้นขอบเรืองแสงด้านนอกแบบไล่สีวิ่ง */
+#Rs::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(60deg, #ff0c0c, #ff5e00, #ffe600, #00f0ff, #9d00ff);
+  background-size: 300% 300%;
+  border-radius: 22px;
+  z-index: -2;
+  filter: blur(8px);
+  animation: glowShift 6s infinite;
+}
+
+/* ชั้นกลางเพิ่มแสงซับใน (เพื่อไม่ให้พื้นหลังกลืนกับขอบ) */
+#Rs::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  z-index: -1;
+}
+
+/* hover เพิ่มการกระพือเล็กน้อย */
+#Rs:hover {
+  transform: scale(1.03);
+}
+
+/* animation ของแสงไล่สี */
+@keyframes glowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#Addons {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(to right, #ff0c0c, #ff5e00);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform .2s ease;
+}
+
+/* ขอบเรืองแสง */
+#Addons::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  background: linear-gradient(60deg, #ff0c0c, #ff5e00, #ffe600, #00f0ff, #9d00ff);
+  background-size: 300% 300%;
+  border-radius: 22px;
+  z-index: -2;
+  filter: blur(8px);
+  animation: glowShift 6s infinite;
+}
+
+/* ชั้นกลางช่วยให้ปุ่มเด่นขึ้น */
+#Addons::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 20px;
+  z-index: -1;
+}
+
+/* hover ขยายเล็กน้อย */
+#Addons:hover {
+  transform: scale(1.03);
+}
+
+/* animation ไล่สี */
+@keyframes glowShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+#black {
+   position: relative;
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: #fff;
+  background: linear-gradient(135deg, #ff0c0c, #ff5e00);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform .2s ease;
+}
+
+
 
     /* git init
 git add .
