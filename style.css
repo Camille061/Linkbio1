@@ -330,6 +330,13 @@
   transition: transform .2s ease;
 }
 
+.btn1 {
+  border: none;
+  border-radius: 20px;
+  padding: 20px;
+  background: linear-gradient(to right, #9d00ff, #00f0ff);
+  color: #6a5af9;
+}
 
 
     /* git init
