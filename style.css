@@ -31,30 +31,13 @@
 
   #text-username {
   font-size:   28px;
-  font-weight: 700;
+  font-weight: bold;
   color: #ff0000;
   position: relative;
   text-align: center;
   padding: 0;
   margin: 0;
-  text-shadow: 
-     0 0 8px rgba(255, 182, 193, .9),
-     0 0 16px rgba(255, 105, 180, .8),
-     0 0 24px rgba(255, 20, 147, .7);
-  transition: all .3s ease;
 }
-
-#text-username:hover {
-  text-shadow: 
-     0 0 12px rgba(255, 182, 193, 1),
-     0 0 24px rgba(255, 105, 180, 1),
-     0 0 36px rgba(255, 20, 147, 1);
-}
-
-
-    .text-username {
-        font-weight: bold;
-    }
 
 
     .discord-box {
@@ -339,7 +322,7 @@
 }
 
 
-    /* git init
+    /*  git init
 git add .
 git commit -m "first commit"
 git branch -M main
