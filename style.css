@@ -42,16 +42,7 @@
       text-decoration: none;
     }
 
-    .discord {
-      text-align: center;
-      align-items: center;
-      display: flex;
-      border: none;
-      border-radius: 20px;
-      background: linear-gradient(to right, #f202ff, #ffdafe);
-      width: 300px;
-      height: 70px;
-    }
+    
 
     .text-discord {
       margin: 0rem;
@@ -67,12 +58,63 @@
       margin: 0 1rem;
     }
 
+    
     .telegram-box {
       height: 80px;
       display: flex;
       justify-content: center;
       align-items: center;
       background-color: #d0c4ff;
+    }
+
+    
+
+    .instargram-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+   
+
+    .language-switcher {
+      position: fixed;
+      top: 12px;
+      right: 12px;
+    }
+
+   
+
+
+    .slideshort-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+    
+
+    .tiktok-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+     .discord {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
     }
 
     .telegram {
@@ -86,16 +128,7 @@
       height: 70px;
     }
 
-
-    .instargram-box {
-      height: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #d0c4ff;
-    }
-
-    .instargram {
+     .instargram {
       text-align: center;
       align-items: center;
       display: flex;
@@ -104,20 +137,6 @@
       background: linear-gradient(to right, #f202ff, #ffdafe);
       width: 300px;
       height: 70px;
-    }
-
-    .language-switcher {
-      position: fixed;
-      top: 12px;
-      right: 12px;
-    }
-
-    .slideshort-box {
-      height: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #d0c4ff;
     }
 
     .slideshort {
@@ -129,14 +148,6 @@
       background: linear-gradient(to right, #f202ff, #ffdafe);
       width: 300px;
       height: 70px;
-    }
-
-    .tiktok-box {
-      height: 80px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: #d0c4ff;
     }
 
     .tiktok {
@@ -163,7 +174,55 @@
       color: #fff;
       text-decoration: none;
     }
+.discord, .telegram, .instargram, .slideshort, .tiktok {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* ชิดซ้าย */
+  padding-left: 20px;
+  gap: 12px; /* ช่องว่างไอคอน-ข้อความ */
+  
+  width: 300px;
+  height: 70px;
+  border: none;
+  border-radius: 20px;
+  
+  font-weight: bold;
+  font-size: 20px;
+  color: #e0cfff;
+  
+  background: linear-gradient(270deg, #440898, #f202ff, #ffdafe);
+  background-size: 400% 400%;
+  animation: pulseGradient 6s ease infinite;
+  
+  box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
+  cursor: pointer;
+  user-select: none;
+}
 
+.discord:hover, .telegram:hover, .instargram:hover, .slideshort:hover, .tiktok:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #6a00ffcc, 0 0 60px #00eaffcc;
+  color: #fff;
+}
+
+@keyframes pulseGradient {
+  0% {
+    background-position: 0% 50%;
+    box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
+  }
+  50% {
+    background-position: 100% 50%;
+    box-shadow: 0 0 20px #6a00ffcc, 0 0 60px #00eaffcc;
+  }
+  100% {
+    background-position: 0% 50%;
+    box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
+  }
+}
+
+    
 
     /*  git init
 git add .
