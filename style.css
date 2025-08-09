@@ -194,7 +194,6 @@
   background-size: 400% 400%;
   animation: pulseGradient 6s ease infinite;
   
-  box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   
   cursor: pointer;
@@ -203,22 +202,21 @@
 
 .discord:hover, .telegram:hover, .instargram:hover, .slideshort:hover, .tiktok:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 20px #6a00ffcc, 0 0 60px #00eaffcc;
   color: #fff;
 }
 
 @keyframes pulseGradient {
   0% {
     background-position: 0% 50%;
-    box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
+  
   }
   50% {
     background-position: 100% 50%;
-    box-shadow: 0 0 20px #6a00ffcc, 0 0 60px #00eaffcc;
+   
   }
   100% {
     background-position: 0% 50%;
-    box-shadow: 0 0 10px #6a00ff99, 0 0 30px #00eaff99;
+   
   }
 }
 
