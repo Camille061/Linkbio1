@@ -1,153 +1,165 @@
     #Btn {
-        border: none;
-        color: rgb(255, 255, 255);
-        background: linear-gradient(to right, #f2ff00, #fb0606);
-        border-radius: 20px;
-        padding: 10px 30px 10px 30px;
-        font-weight: bold;
+      border: none;
+      color: rgb(255, 255, 255);
+      background: linear-gradient(to right, #f2ff00, #fb0606);
+      border-radius: 20px;
+      padding: 10px 30px 10px 30px;
+      font-weight: bold;
 
     }
 
-    
+
     /* background: linear-gradient(to right, #f2ff00, #ececec); */
     .Imag {
-        width: 200px;
-        height: 200px;
-        border: none;
-        border-radius: 50%;
-        object-fit: cover;
-        padding: 15px;
-        margin: 0 auto;
+      width: 200px;
+      height: 200px;
+      border: none;
+      border-radius: 50%;
+      object-fit: cover;
+      padding: 15px;
+      margin: 0 auto;
     }
 
     #myText {
-        background-color: #d0c4ff;
-        text-align: center;
+      background-color: #d0c4ff;
+      text-align: center;
     }
 
 
     .top-bar {
-        text-align: center;
+      text-align: center;
     }
 
-  #text-username {
-
-}
+    #text-username {}
 
 
     .discord-box {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:  #d0c4ff;
-        text-decoration: none;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+      text-decoration: none;
     }
 
     .discord {
-        text-align: center;
-        align-items: center;
-        display: flex;
-        border: none;
-        border-radius: 20px;
-        background: linear-gradient(to right, #f202ff, #ffdafe);
-        width: 300px;
-        height: 70px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
     }
 
     .text-discord {
-        margin: 0rem;
-        padding: 15px;
-        font-weight: bold;
-        font-family: "Mitr", sans-serif;
+      margin: 0rem;
+      padding: 15px;
+      font-weight: bold;
+      font-family: "Mitr", sans-serif;
 
     }
 
     .img2 {
-        width: 70px;
-        height: 60px;
-        margin: 0 1rem;
+      width: 70px;
+      height: 60px;
+      margin: 0 1rem;
     }
 
     .telegram-box {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:  #d0c4ff;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
     }
 
     .telegram {
-          text-align: center;
-        align-items: center;
-        display: flex;
-        border: none;
-        border-radius: 20px;
-       background: linear-gradient(to right, #f202ff, #ffdafe);
-        width: 300px;
-        height: 70px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
     }
 
 
     .instargram-box {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:  #d0c4ff;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
     }
 
     .instargram {
-          text-align: center;
-        align-items: center;
-        display: flex;
-        border: none;
-        border-radius: 20px;
-       background: linear-gradient(to right, #f202ff, #ffdafe);
-        width: 300px;
-        height: 70px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
     }
 
     .language-switcher {
-  position: fixed;
-  top: 12px;
-  right: 12px;
-}
+      position: fixed;
+      top: 12px;
+      right: 12px;
+    }
 
     .slideshort-box {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color:  #d0c4ff;
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
     }
 
     .slideshort {
-          text-align: center;
-        align-items: center;
-        display: flex;
-        border: none;
-        border-radius: 20px;
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
       background: linear-gradient(to right, #f202ff, #ffdafe);
-        width: 300px;
-        height: 70px;
+      width: 300px;
+      height: 70px;
     }
 
-    .Rlcraft-box {
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #ffc4f6;
+    .tiktok-box {
+      height: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #d0c4ff;
+    }
+
+    .tiktok {
+      text-align: center;
+      align-items: center;
+      display: flex;
+      border: none;
+      border-radius: 20px;
+      background: linear-gradient(to right, #f202ff, #ffdafe);
+      width: 300px;
+      height: 70px;
     }
 
 
     .Btn-rl {
-        border: none;
-        border-radius: 20px;
+      border: none;
+      border-radius: 20px;
     }
 
-    .discord, .telegram, .instargram, .slideshort {
+    .discord,
+    .telegram,
+    .instargram,
+    .slideshort {
       color: #fff;
       text-decoration: none;
     }
@@ -155,9 +167,8 @@
 
     /*  git init
 git add .
+
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Camille061/linkbio2.git
 git push -u origin main */
-
-
