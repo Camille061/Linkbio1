@@ -50,7 +50,7 @@
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #f202ff, #fafafa);
+        background: linear-gradient(to right, #f202ff, #ffdafe);
         width: 300px;
         height: 70px;
     }
@@ -83,7 +83,7 @@
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right, #f202ff, #fafafa);
+       background: linear-gradient(to right, #f202ff, #ffdafe);
         width: 300px;
         height: 70px;
     }
@@ -103,7 +103,7 @@
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right,  #f202ff, #fafafa);
+       background: linear-gradient(to right, #f202ff, #ffdafe);
         width: 300px;
         height: 70px;
     }
@@ -128,7 +128,7 @@
         display: flex;
         border: none;
         border-radius: 20px;
-        background: linear-gradient(to right,  #f202ff, #fafafa);
+      background: linear-gradient(to right, #f202ff, #ffdafe);
         width: 300px;
         height: 70px;
     }
@@ -153,11 +153,11 @@
     }
 
 
-
     /*  git init
 git add .
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/Camille061/linkbio2.git
 git push -u origin main */
+
 
